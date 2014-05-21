@@ -1,10 +1,10 @@
 package se.fidde.nonsense.activity;
 
 import se.fidde.nonsense.R;
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 
-public class WriterActivity extends Activity {
+public class WriterActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

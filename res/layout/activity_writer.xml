@@ -1,8 +1,33 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="se.fidde.nonsense.activity.WriterActivity"
-    tools:ignore="MergeRootFrame" />
+    android:background="@color/bgNormal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="se.fidde.nonsense.WriterActivity$PlaceholderFragment" >
 
+    <LinearLayout
+        android:id="@+id/writerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/picture_fragment"
+            android:name="se.fidde.nonsense.fragment.writer.WriterPicture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_writer_picture" />
+
+        <fragment
+            android:id="@+id/wordlist_fragment"
+            android:name="se.fidde.nonsense.fragment.writer.WriterWordlistordlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_writer_wordlist" />
+    </LinearLayout>
+
+</RelativeLayout>

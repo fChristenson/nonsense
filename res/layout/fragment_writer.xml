@@ -34,10 +34,10 @@
 
         <fragment
             android:id="@+id/wordlist"
-            android:name="se.fidde.nonsense.fragment.Wordlist"
+            android:name="se.fidde.nonsense.fragment.writer.WriterWordlist"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:layout="@layout/wordlist" />
+            tools:layout="@layout/fragment_writer_wordlist" />
 
     </LinearLayout>
 
