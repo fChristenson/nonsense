@@ -16,4 +16,5 @@ public class WriterPicture extends Fragment {
         return inflater.inflate(R.layout.fragment_writer_picture, container,
                 true);
     }
+
 }
