@@ -18,7 +18,7 @@ public class WriterActivity extends FragmentActivity implements
         setContentView(R.layout.activity_writer);
 
         Fragment fragment = getSupportFragmentManager().findFragmentById(
-                R.id.picture_fragment);
+                R.id.fragment_picturePanel);
 
         textFieldWithWords = (TextView) fragment.getView().findViewById(
                 R.id.textView);

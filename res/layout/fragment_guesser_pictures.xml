@@ -11,14 +11,14 @@
         android:gravity="center" >
 
         <ImageView
-            android:id="@+id/ImageView01"
+            android:id="@+id/ImageView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/imagePadding"
             android:src="@drawable/rsz_cat1" />
 
         <ImageView
-            android:id="@+id/ImageView04"
+            android:id="@+id/ImageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/imagePadding"
@@ -32,14 +32,14 @@
         android:gravity="center" >
 
         <ImageView
-            android:id="@+id/ImageView02"
+            android:id="@+id/ImageView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/imagePadding"
             android:src="@drawable/rsz_cat1" />
 
         <ImageView
-            android:id="@+id/ImageView03"
+            android:id="@+id/ImageView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/imagePadding"

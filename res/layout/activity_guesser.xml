@@ -10,14 +10,14 @@
     tools:context="se.fidde.nonsense.MainActivity$PlaceholderFragment" >
 
     <fragment
-        android:id="@+id/pictures_fragment"
+        android:id="@+id/fragment_picturesPanel"
         android:name="se.fidde.nonsense.fragment.guesser.GuesserPictures"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout="@layout/fragment_guesser_pictures" />
 
     <fragment
-        android:id="@+id/textfield_fragment"
+        android:id="@+id/fragment_infoPanel"
         android:name="se.fidde.nonsense.fragment.writer.WriterWordlist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

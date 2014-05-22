@@ -31,7 +31,7 @@ public class WriterWordlist extends Fragment {
         View view = inflater.inflate(R.layout.fragment_writer_wordlist,
                 container, false);
 
-        ListView listView = (ListView) view.findViewById(R.id.listWithWords);
+        ListView listView = (ListView) view.findViewById(R.id.wordlist);
         listView.setAdapter(wordlistAdapter);
 
         listView.setOnItemClickListener(new OnItemClickListener() {
