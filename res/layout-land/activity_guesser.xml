@@ -10,7 +10,7 @@
     tools:context="se.fidde.nonsense.MainActivity$PlaceholderFragment" >
 
     <LinearLayout
-        android:id="@+id/linearContainer"
+        android:id="@+id/linearContainer_land"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"

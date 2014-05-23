@@ -5,5 +5,5 @@
     android:layout_alignParentBottom="true"
     android:background="@drawable/textview_border"
     android:padding="@dimen/textviewPadding"
-    android:text="Test"
+    android:text=""
     android:textAppearance="?android:attr/textAppearanceLarge" />
