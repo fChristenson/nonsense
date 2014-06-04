@@ -16,15 +16,19 @@
         <activity
             android:name="se.fidde.nonsense.activity.GuesserActivity"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="se.fidde.nonsense.activity.WriterActivity"
+            android:label="@string/title_activity_writer" >
+        </activity>
+        <activity
+            android:name="se.fidde.nonsense.StartMenu"
+            android:label="@string/title_activity_start_menu" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="se.fidde.nonsense.activity.WriterActivity"
-            android:label="@string/title_activity_writer" >
         </activity>
     </application>
 

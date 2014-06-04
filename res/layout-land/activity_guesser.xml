@@ -1,5 +1,7 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/guesser_container"
+   android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bgNormal"
@@ -10,25 +12,58 @@
     tools:context="se.fidde.nonsense.MainActivity$PlaceholderFragment" >
 
     <LinearLayout
-        android:id="@+id/linearContainer_land"
+        android:id="@+id/LinearLayout02"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:orientation="vertical" >
+        android:gravity="center" >
 
-        <fragment
-            android:id="@+id/fragment_picturesPanel"
-            android:name="se.fidde.nonsense.fragment.guesser.GuesserPictures"
-            android:layout_width="match_parent"
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:layout="@layout/fragment_guesser_pictures" />
+            android:onClick="checkAnswer"
+            android:padding="@dimen/imagePadding"
+            android:src="@drawable/rsz_cat1" />
 
-        <fragment
-            android:id="@+id/fragment_infoPanel"
-            android:name="se.fidde.nonsense.fragment.guesser.GuesserTextfield"
-            android:layout_width="match_parent"
+        <ImageView
+            android:id="@+id/img_2"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:layout="@layout/fragment_guesser_textfield" />
+            android:onClick="checkAnswer"
+            android:padding="@dimen/imagePadding"
+            android:src="@drawable/rsz_cat1" />
     </LinearLayout>
 
-</RelativeLayout>
+    <LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/img_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkAnswer"
+            android:padding="@dimen/imagePadding"
+            android:src="@drawable/rsz_cat1" />
+
+        <ImageView
+            android:id="@+id/img_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkAnswer"
+            android:padding="@dimen/imagePadding"
+            android:src="@drawable/rsz_cat1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_border"
+        android:padding="@dimen/textviewPadding"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
